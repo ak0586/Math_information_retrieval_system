@@ -12,7 +12,7 @@ Python standard libraries
 CORS middleware for cross-origin frontend-backend communication
 
 📁 Project Structure
-
+<pre lang="md">
 📦backend
  ┣ 📂MIR_model
  ┃ ┣ 📜cluster_index.py          # Handles cluster index loading and searching
@@ -20,13 +20,13 @@ CORS middleware for cross-origin frontend-backend communication
  ┃ ┣ 📜driver_clustering.py      # Triggers clustering and index creation
  ┃ ┣ 📜driver_preprocessing.py   # Triggers preprocessing of html document and return dictionary of bitvector and correponding metadata
  ┃ ┣ 📜hamming_mini_batch_kmeans.py   # Adapted minibatch kmeans for binary bitvectors
- ┃ ┣ 📜preprocessing.py          # Perfrom extraction of mathml and latex from html file and generate bitvectors.
+ ┃ ┣ 📜preprocessing.py          # Perform extraction of mathml and latex from html file and generate bitvectors.
  ┃ ┣ 📜query_processing.py       # first check the query for latex or plaintext, if plain text then generate latex.
  ┃ ┣ 📜query_to_bitvector.py     # convert query latex into mathml then mathml into bitvector bitvector generation.
  ┃ ┣ 📜search_query.py           # take user query and triggers searching
  ┣ 📜main.py                     # FastAPI entry point
  ┗ 📁math_index_storage          # Stores saved cluster models and indices and hamming minibatchkmeans model state
-
+</pre>
 
 🚀 How It Works
 
@@ -149,5 +149,6 @@ You may **not**:
 - ❌ Modify or distribute any part of this project.
 
 Violations may result in legal action under copyright law.
+
 
 
