@@ -27,6 +27,7 @@ CORS middleware for cross-origin frontend-backend communication
  ┣ 📜main.py                     # FastAPI entry point
  ┗ 📁math_index_storage          # Stores saved cluster models and indices and hamming minibatchkmeans model state
 
+
 🚀 How It Works
 
 Clustering & Indexing
@@ -148,4 +149,5 @@ You may **not**:
 - ❌ Modify or distribute any part of this project.
 
 Violations may result in legal action under copyright law.
+
 
