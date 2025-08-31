@@ -4,6 +4,7 @@ from .cluster_index import MathClusterIndex
 
 def clustering_and_indexing():
     # CLustering driver module
+    print("ashfwehfewoifiigiuugiugiugiuiggigiugiiggigiuwoei")
     os.makedirs("math_index_storage", exist_ok=True)
     # print_centroids
     # Initialize the cluster index
@@ -32,3 +33,4 @@ def clustering_and_indexing():
     # Verify that bitvectors have been assigned to clusters
     # print(f"Bitvectors assigned to clusters: {len(index.bitvector_to_cluster)}")
     # '''
+    # MIR_Model/preprocessed_data.pkl

@@ -8,6 +8,8 @@ from typing import List,Dict
 import os
 from datetime import datetime
 from collections import defaultdict
+
+
 # Processed batch 1 with 1000 bitvectors
 def rapidfuzz_similarity(str1, str2):
     if str1==str2:
@@ -187,7 +189,7 @@ class MathClusterIndex:
                 return
             
                 
-            # Initialize SerialMiniBatchKMeans only once on first batch
+            # Initialize HammingMiniBatchKMeans only once on first batch
             if not self.centroids_initialized:
                 print(f"Initializing centroids with batch {batch_num}")
                 self.kmeans = HammingMiniBatchKMeans(
